@@ -1,0 +1,287 @@
+{
+  "_note": "The discoveries along the Backs, in order down the river. Written by hand, not by data:build. Each is found when the punt passes through its zone: a bridge's span (and `reach` metres either side, 15 by default), a building's length along the river (and 10 m either side), or `s`, a stretch of river in metres from the start of the centreline. Every fact was checked against the sources listed; check again before changing the text.",
+  "landmarks": [
+    {
+      "id": "mill-pond",
+      "name": "The Mill Pond",
+      "hint": "Where the punts set off, below the weir",
+      "at": { "s": [0, 50] },
+      "text": "Mills worked beside this pool from the Middle Ages: the Domesday Book of 1086 probably records one of them. The King's Mill and the Bishop's Mill later stood side by side at the end of Mill Lane, their wheels spilling into the pool. They fell out of use after the railway came, and were cleared away in 1928. The triangle of grass beside the pool is Laundress Green: on Mondays and Tuesdays, when no animals grazed it, local washerwomen and college laundries hung their washing out there to dry.",
+      "sources": [
+        {
+          "title": "Capturing Cambridge: King's Mill and Bishop's Mill",
+          "url": "https://capturingcambridge.org/centre/granta-place/foster-brothers-flour-mill-kings-mill-and-bishops-mill-granta-place/"
+        },
+        {
+          "title": "Capturing Cambridge: Laundress Green",
+          "url": "https://capturingcambridge.org/centre/granta-place/laundress-green-cambridge/"
+        }
+      ]
+    },
+    {
+      "id": "silver-street-bridge",
+      "name": "Silver Street Bridge",
+      "hint": "The first bridge below the Mill Pond",
+      "at": { "bridge": "Silver Street Bridge" },
+      "text": "Sir Edwin Lutyens, one of England's best-known architects, designed this bridge in 1932, but it wasn't built until 1958–59, long after his death. His first design stood on two rows of piles in the river; Queens' College and the Anchor pub objected, so he redesigned it to rest on rafts instead. It is reinforced concrete faced with Portland stone, which the Royal Fine Art Commission insisted on, and it replaced a cast-iron bridge of 1840.",
+      "sources": [
+        {
+          "title": "Historic England: Silver Street Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1409450"
+        }
+      ]
+    },
+    {
+      "id": "queens-college",
+      "name": "Queens' College",
+      "hint": "Old brick courts close to the start",
+      "at": { "building": "relation/1999159" },
+      "text": "Queens' was founded twice, by rival queens: by Margaret of Anjou, wife of Henry VI, in 1448, and by Elizabeth Woodville, wife of Edward IV, in 1465. Its brick Old Court was begun in 1448, and the Dutch scholar Erasmus lived and taught here in the 1510s. Guides say the apostrophe sits after the s because of the two queens, but the college's own historians point out that this spelling only caught on in the 1820s and 30s. Officially it is still the Queen's College.",
+      "sources": [
+        {
+          "title": "Queens' College History: That Apostrophe",
+          "url": "https://history.queens.cam.ac.uk/college/apostrophe"
+        }
+      ]
+    },
+    {
+      "id": "mathematical-bridge",
+      "name": "The Mathematical Bridge",
+      "hint": "A timber bridge at Queens'",
+      "at": { "bridge": "Mathematical Bridge" },
+      "text": "Legend says Isaac Newton built this bridge without a single nut or bolt. It can't be true: Newton died in 1727, and the bridge was designed by William Etheridge in 1748 and built by James Essex the following year. The Newton story first appeared in print in 1897, and photographs from the 1850s already show fastenings at its joints. Its timbers are laid along tangents to the arch, so they are squeezed rather than bent. The bridge you see was rebuilt to the same design in 1905, in teak.",
+      "sources": [
+        {
+          "title": "Queens' College History: Mathematical Bridge",
+          "url": "https://history.queens.cam.ac.uk/college/mathematical-bridge"
+        }
+      ]
+    },
+    {
+      "id": "the-backs",
+      "name": "The Backs",
+      "hint": "The lawns and meadows between Queens' and King's",
+      "at": { "s": [180, 260] },
+      "text": "The Backs are the colleges' back gardens: the lawns, meadows and avenues between the river and Queen's Road, where Queens', King's, Clare, Trinity Hall, Trinity and St John's back on to the Cam. In the sixteenth century this was college pasture, gardens and orchards, and cattle can still be found grazing behind King's. In 1779 Capability Brown proposed turning the Backs into parkland centred on King's; his plan was never carried out. The Backs are now a Grade I registered historic landscape.",
+      "sources": [
+        {
+          "title": "Wikipedia: The Backs",
+          "url": "https://en.wikipedia.org/wiki/The_Backs"
+        }
+      ]
+    },
+    {
+      "id": "kings-bridge",
+      "name": "King's College Bridge",
+      "hint": "A single stone arch below a great lawn",
+      "at": { "bridge": "King's College Bridge" },
+      "text": "William Wilkins, who also designed the National Gallery in London, drew this single arch of Fifeshire stone in 1818, and it was built the following year. Historic England notes that its position follows the 'picturesque' theory of landscaping, in which bridges and buildings were placed as parts of a view. A wooden bridge had crossed the river here since the fifteenth century.",
+      "sources": [
+        {
+          "title": "Historic England: King's College, King's Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1125535"
+        },
+        {
+          "title": "Wikipedia: King's College Bridge",
+          "url": "https://en.wikipedia.org/wiki/King%27s_College_Bridge"
+        }
+      ]
+    },
+    {
+      "id": "kings-chapel",
+      "name": "King's College Chapel",
+      "hint": "Look across King's lawn",
+      "at": { "s": [330, 375] },
+      "text": "Henry VI laid the first stone on 25 July 1446, but the chapel took almost seventy years to finish. The Wars of the Roses cut off the money and stopped the work; Henry VII revived it, and by 1515, under Henry VIII, the main structure was complete. The master mason John Wastell built its fan vault in just three years, from 1512 to 1515. Running the whole length of the chapel, it is the largest fan vault in the world.",
+      "sources": [
+        {
+          "title": "King's College: History of the Chapel",
+          "url": "https://www.kings.cam.ac.uk/history-chapel"
+        },
+        {
+          "title": "Wikipedia: King's College Chapel",
+          "url": "https://en.wikipedia.org/wiki/King%27s_College_Chapel,_Cambridge"
+        }
+      ]
+    },
+    {
+      "id": "clare-college",
+      "name": "Clare College",
+      "hint": "A stately stone court beside a stone bridge",
+      "at": { "building": "way/139308031" },
+      "text": "Clare is the second-oldest surviving college in Cambridge, founded in 1326. It is named after Lady Elizabeth de Clare, a granddaughter of Edward I, who endowed it a few years later; it was known as Clare Hall from 1339, and only became plain Clare in the nineteenth century. The graceful Old Court facing the river took from 1638 to 1715 to build, and Clare Bridge was begun at the same time, to reach the college's gardens across the river.",
+      "sources": [
+        {
+          "title": "Clare College: College History",
+          "url": "https://www.clare.cam.ac.uk/College-History/"
+        },
+        {
+          "title": "Wikipedia: Clare College",
+          "url": "https://en.wikipedia.org/wiki/Clare_College,_Cambridge"
+        }
+      ]
+    },
+    {
+      "id": "clare-bridge",
+      "name": "Clare Bridge",
+      "hint": "Count the stone balls on its parapets",
+      "at": { "bridge": "Clare Bridge" },
+      "text": "Built in 1639–40 by Thomas Grumbold, this is the oldest bridge in Cambridge still standing, and the first here in the classical style. Count the stone balls along its parapets: there are fourteen, and one has a wedge-shaped piece missing. College lore says the builder was never paid in full and took the slice to make up the shortfall. The likelier answer is duller: a piece of stone cemented into the ball worked loose and fell out.",
+      "sources": [
+        {
+          "title": "Historic England: Clare College, Clare Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1125549"
+        },
+        {
+          "title": "Wikipedia: Clare College Bridge",
+          "url": "https://en.wikipedia.org/wiki/Clare_College_Bridge,_Cambridge"
+        }
+      ]
+    },
+    {
+      "id": "trinity-hall",
+      "name": "Trinity Hall",
+      "hint": "A library that leans out over the water",
+      "at": { "s": [465, 515] },
+      "text": "Trinity Hall was founded in 1350 by William Bateman, Bishop of Norwich, after the Black Death had halved England's population and carried off many of its parish priests. It trained clergy and lawyers in church and civil law, and it is the fifth-oldest college in Cambridge. Its newest landmark sits right on the river: the Jerwood Library, built in 1998, overhangs the Cam and looks out across the Backs.",
+      "sources": [
+        {
+          "title": "Trinity Hall: History",
+          "url": "https://www.trinhall.cam.ac.uk/about/history/"
+        },
+        {
+          "title": "Trinity Hall: The Jerwood Library",
+          "url": "https://www.trinhall.cam.ac.uk/about/library/jerwood-library/"
+        }
+      ]
+    },
+    {
+      "id": "garret-hostel-bridge",
+      "name": "Garret Hostel Bridge",
+      "hint": "A steep, slender modern arch",
+      "at": { "bridge": "Garret Hostel Bridge" },
+      "text": "This slender arch was designed by Timothy Morgan while he was an architecture undergraduate, and built in 1960. It is a prestressed concrete arch spanning 80 feet, and the sixth bridge on the site since 1455, replacing a cast-iron one of 1837. It takes its name from Garret Hostel Lane, named in turn after Garret Hostel, a building acquired by the long-vanished college of Michaelhouse in 1329 and pulled down in the seventeenth century.",
+      "sources": [
+        {
+          "title": "Historic England: Garret Hostel Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1119764"
+        },
+        {
+          "title": "Wikipedia: Garret Hostel Bridge",
+          "url": "https://en.wikipedia.org/wiki/Garret_Hostel_Bridge"
+        }
+      ]
+    },
+    {
+      "id": "trinity-bridge",
+      "name": "Trinity Bridge",
+      "hint": "Three stone arches at the biggest college",
+      "at": { "bridge": "Trinity Bridge" },
+      "text": "James Essex, who built the Mathematical Bridge, designed this three-arched bridge of Portland and Ketton stone in 1764–65, reusing some stone from the old bridge it replaced. It was paid for from the bequest of Dr Francis Hooper, a senior fellow of Trinity. The bridge links the college's courts on the east bank with the avenue and gardens across the river, on the way to Queen's Road.",
+      "sources": [
+        {
+          "title": "Historic England: Trinity College, Trinity Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1331804"
+        },
+        {
+          "title": "Wikipedia: Trinity College Bridge",
+          "url": "https://en.wikipedia.org/wiki/Trinity_College_Bridge"
+        }
+      ]
+    },
+    {
+      "id": "wren-library",
+      "name": "The Wren Library",
+      "hint": "A great library above an open arcade",
+      "at": { "building": "relation/9449788" },
+      "text": "Sir Christopher Wren designed Trinity's library in 1676, and it was finished in 1695. Look at the arches: inside, the floor is set well below the line between the two storeys you see outside, so the bookcases fit beneath tall windows that fill the room with light. The bookcases carry limewood carvings by Grinling Gibbons, and the library's treasures include Isaac Newton's own first edition of his Principia, with his handwritten corrections for the second.",
+      "sources": [
+        {
+          "title": "Wikipedia: Wren Library",
+          "url": "https://en.wikipedia.org/wiki/Wren_Library"
+        },
+        {
+          "title": "Trinity College Library: Highlights",
+          "url": "https://www.trin.cam.ac.uk/library/highlights/"
+        }
+      ]
+    },
+    {
+      "id": "kitchen-bridge",
+      "name": "The Kitchen Bridge",
+      "hint": "The older of St John's two bridges",
+      "at": { "bridge": "Kitchen Bridge" },
+      "text": "St John's College's older bridge was designed by Sir Christopher Wren, whose library you passed at Trinity, and built between 1709 and 1713. Its everyday name comes from the college's kitchen yard at its eastern end, though it is also called the Wren Bridge. From here you can see the Bridge of Sighs, just twenty metres downstream, which came more than a century later.",
+      "sources": [
+        {
+          "title": "St John's College: Bridge of Sighs",
+          "url": "https://www.joh.cam.ac.uk/bridge-sighs"
+        }
+      ]
+    },
+    {
+      "id": "bridge-of-sighs",
+      "name": "The Bridge of Sighs",
+      "hint": "A covered bridge",
+      "at": { "bridge": "Bridge of Sighs" },
+      "text": "Henry Hutchinson's covered bridge of 1831 links St John's Third Court with New Court across the river. It was first called simply the New Bridge. Its famous name followed Queen Victoria's visit in 1847, when she likened it to the Bridge of Sighs in Venice; the college admits that most people would question the resemblance. It is the only covered bridge across the Cam, and student pranksters have twice hung a car beneath it.",
+      "sources": [
+        {
+          "title": "St John's College: Bridge of Sighs",
+          "url": "https://www.joh.cam.ac.uk/bridge-sighs"
+        }
+      ]
+    },
+    {
+      "id": "new-court",
+      "name": "New Court",
+      "hint": "Gothic towers and a lantern like a cake",
+      "at": { "s": [890, 950] },
+      "text": "Thomas Rickman and Henry Hutchinson built New Court for St John's in 1826–31: a romantic Gothic Revival court of towers, pinnacles and battlements across the river from the old college. The lantern on its central tower is affectionately known as the Wedding Cake. One architectural historian rates New Court as probably the University's most iconic building after King's College Chapel, and Queen Victoria admired it on her visit in 1847.",
+      "sources": [
+        {
+          "title": "Historic England: St John's College, New Court",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1332178"
+        },
+        {
+          "title": "Frank Salmon: The design of New Court at St John's College",
+          "url": "https://www.repository.cam.ac.uk/items/0f1da979-50ad-4c80-bc31-4a0ffdcf7613"
+        }
+      ]
+    },
+    {
+      "id": "magdalene-bridge",
+      "name": "Magdalene Bridge",
+      "hint": "The bridge that named the town",
+      "at": { "bridge": "Magdalene Bridge" },
+      "text": "There has been a bridge here for well over a thousand years. The Anglo-Saxon Chronicle calls the town Grantabrycge in 875: the bridge over the Granta, as this river was then known. The Great Bridge, as it was called, went through a long line of timber rebuilds until James Essex replaced it in stone in 1754. The cast-iron bridge you pass under was built in 1823 to the designs of the architect Arthur Browne.",
+      "sources": [
+        {
+          "title": "Capturing Cambridge: Great Bridge / Magdalene Bridge",
+          "url": "https://capturingcambridge.org/centre/magdalene-street/great-bridge-magdalene-bridge/"
+        },
+        {
+          "title": "Historic England: Magdalene Bridge",
+          "url": "https://historicengland.org.uk/listing/the-list/list-entry/1331826"
+        }
+      ]
+    },
+    {
+      "id": "magdalene-college",
+      "name": "Magdalene College",
+      "hint": "A college that keeps a famous diarist's books",
+      "at": { "building": "way/23694476" },
+      "text": "Magdalene began in 1428 as a hostel for Benedictine monks studying at Cambridge, who chose a site across the river, away from the distractions of the town. It became Buckingham College, and was refounded in 1542 by Thomas Audley as the College of St Mary Magdalene, pronounced 'Maudlin', as early documents spelt it. Samuel Pepys left it his library, which still holds the manuscript of his famous diary.",
+      "sources": [
+        {
+          "title": "Magdalene College: History",
+          "url": "https://www.magd.cam.ac.uk/about/history"
+        },
+        {
+          "title": "Wikipedia: Pepys Library",
+          "url": "https://en.wikipedia.org/wiki/Pepys_Library"
+        }
+      ]
+    }
+  ]
+}

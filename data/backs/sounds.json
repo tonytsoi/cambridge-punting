@@ -1,0 +1,28 @@
+{
+  "_note": "Where the Backs' sounds come from. Written by hand, not by data:build. A place is at a bridge (the middle of its span, on the centreline), at `s` metres along the centreline and `offset` metres to its right looking downstream (east, mostly), or at the weir. `reach` is how far off it can be heard (m) and `volume` how loud it is close by (0-1). `birds` gives the birdsong's loudness along the river as [s, volume] pairs, and `bells` where church bells are heard from now and then (x, z: Great St Mary's, across the town).",
+  "places": [
+    { "sound": "weir", "at": { "weir": true }, "reach": 110, "volume": 0.9 },
+    { "sound": "crowd", "at": { "s": 50, "offset": 22 }, "reach": 70, "volume": 0.5 },
+    { "sound": "ducks", "at": { "s": 20, "offset": -40 }, "reach": 60, "volume": 0.6 },
+    { "sound": "traffic", "at": { "bridge": "Silver Street Bridge" }, "reach": 130, "volume": 0.45 },
+    { "sound": "chatter", "at": { "bridge": "Silver Street Bridge" }, "reach": 50, "volume": 0.55 },
+    { "sound": "chatter", "at": { "bridge": "Mathematical Bridge" }, "reach": 35, "volume": 0.3 },
+    { "sound": "cygnets", "at": { "s": 240, "offset": -7 }, "reach": 30, "volume": 0.5 },
+    { "sound": "ducks", "at": { "s": 380, "offset": -8 }, "reach": 40, "volume": 0.4 },
+    { "sound": "chatter", "at": { "bridge": "Garret Hostel Bridge" }, "reach": 40, "volume": 0.35 },
+    { "sound": "chatter", "at": { "bridge": "Trinity Bridge" }, "reach": 35, "volume": 0.3 },
+    { "sound": "traffic", "at": { "bridge": "Magdalene Bridge" }, "reach": 150, "volume": 0.55 },
+    { "sound": "crowd", "at": { "s": 1085, "offset": 12 }, "reach": 70, "volume": 0.6 },
+    { "sound": "ducks", "at": { "s": 1110, "offset": -8 }, "reach": 50, "volume": 0.5 }
+  ],
+  "birds": [
+    [0, 0.5],
+    [60, 0.5],
+    [120, 0.8],
+    [300, 1],
+    [900, 1],
+    [1040, 0.8],
+    [1080, 0.5]
+  ],
+  "bells": [355, -178]
+}

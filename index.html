@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- Edge to edge on phones: the page keeps clear of notches and rounded corners itself. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Punt along the Backs of the River Cam." />
+    <!-- What a shared link shows; the picture's address is added by the build (vite.config.ts). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cambridge Punting" />
+    <meta property="og:title" content="Cambridge Punting" />
+    <meta
+      property="og:description"
+      content="Punt along the Backs of the River Cam, from the Mill Pond to Magdalene Bridge, in your browser."
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="A punt on the River Cam heading for the Bridge of Sighs at golden hour"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0f1a1d" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <title>Cambridge Punting</title>
+    <script type="module" crossorigin src="./assets/index-BiZgG-nd.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three-XPz3NDxy.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-NwSqMrJZ.css">
+    <meta property="og:url" content="https://tonytsoi.github.io/cambridge-punting/">
+    <meta property="og:image" content="https://tonytsoi.github.io/cambridge-punting/social.jpg">
+    <meta name="twitter:image" content="https://tonytsoi.github.io/cambridge-punting/social.jpg">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- From the first moment until the river is drawn (src/ui/LoadingScreen.ts). -->
+    <div class="loading" role="status">
+      <p class="loading-title">Cambridge Punting</p>
+      <div class="loading-bar"><div class="loading-fill"></div></div>
+      <p class="loading-step">Loading…</p>
+    </div>
+    <noscript>
+      <div class="menu-layer open stop-screen">
+        <div class="menu-panel" role="dialog" aria-label="Cambridge Punting needs JavaScript">
+          <h2 class="menu-heading">Cambridge Punting needs JavaScript</h2>
+          <p class="menu-text">
+            The game runs in the browser, which needs JavaScript switched on. Turn it on for this
+            site, then reload the page.
+          </p>
+        </div>
+      </div>
+    </noscript>
+  </body>
+</html>
